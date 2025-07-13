@@ -10,40 +10,30 @@
         <header>
             <h1>VocabulAir</h1>
             <div class="language-toggle">
-                <button onclick="setLanguage('en')" aria-label="English">
-                    🇺🇸
-                </button>
-                <button onclick="setLanguage('de')" aria-label="Deutsch">
-                    🇩🇪
-                </button>
+                <button onclick="setLanguage('en')" aria-label="English">🇬🇧</button>
+                <button onclick="setLanguage('de')" aria-label="Deutsch">🇩🇪</button>
             </div>
         </header>
 
         <div class="container">
             <nav class="sidebar">
-                <button class="tab-btn active" data-tab="appInfo">
-                    App Information
-                </button>
+                <button class="tab-btn active" data-tab="appInfo">App Information</button>
                 <button class="tab-btn" data-tab="howtos">How-Tos</button>
-                <button class="tab-btn" data-tab="privacy">
-                    Privacy Disclaimer
-                </button>
+                <button class="tab-btn" data-tab="privacy">Privacy Disclaimer</button>
             </nav>
 
             <main class="content">
                 <section id="appInfo" class="tab-content active">
                     <h2></h2>
-                    <p></p>
+                    <div class="section-body"></div>
                 </section>
-
                 <section id="howtos" class="tab-content">
                     <h2></h2>
-                    <p></p>
+                    <div class="section-body"></div>
                 </section>
-
                 <section id="privacy" class="tab-content">
                     <h2></h2>
-                    <p></p>
+                    <div class="section-body"></div>
                 </section>
             </main>
         </div>
@@ -63,19 +53,43 @@
             }
 
             function applyContent() {
-                // Update tab button text
                 document.querySelectorAll(".tab-btn").forEach((btn) => {
                     const tab = btn.getAttribute("data-tab");
                     btn.textContent = content[language].tabs[tab];
                 });
 
-                // Update section content
                 ["appInfo", "howtos", "privacy"].forEach((id) => {
                     const section = document.getElementById(id);
                     const sectionData = content[language][id];
 
                     section.querySelector("h2").textContent = sectionData.title;
-                    section.querySelector("p").innerText = sectionData.content; // preserve line breaks
+                    const body = section.querySelector(".section-body");
+                    body.innerHTML = "";
+
+                    sectionData.content.forEach((block) => {
+                        let el;
+                        switch (block.type) {
+                            case "heading":
+                                el = document.createElement("h3");
+                                el.textContent = block.text;
+                                break;
+                            case "paragraph":
+                                el = document.createElement("p");
+                                el.textContent = block.text;
+                                break;
+                            case "list":
+                                el = document.createElement("ul");
+                                block.items.forEach(item => {
+                                    const li = document.createElement("li");
+                                    li.textContent = item;
+                                    el.appendChild(li);
+                                });
+                                break;
+                            default:
+                                return;
+                        }
+                        body.appendChild(el);
+                    });
                 });
             }
 
@@ -87,26 +101,21 @@
 
             function switchTab(tabId) {
                 document.querySelectorAll(".tab-btn").forEach((btn) => {
-                    btn.classList.toggle(
-                        "active",
-                        btn.getAttribute("data-tab") === tabId,
-                    );
+                    btn.classList.toggle("active", btn.getAttribute("data-tab") === tabId);
                 });
-
                 document.querySelectorAll(".tab-content").forEach((section) => {
                     section.classList.toggle("active", section.id === tabId);
                 });
             }
 
-            window.addEventListener("DOMContentLoaded", () => {
-                // 🛠️ FIXED: register event listeners only *after* DOM is ready
-                document.querySelectorAll(".tab-btn").forEach((btn) => {
-                    btn.addEventListener("click", () => {
-                        const tabId = btn.getAttribute("data-tab");
-                        switchTab(tabId);
-                    });
+            document.querySelectorAll(".tab-btn").forEach((btn) => {
+                btn.addEventListener("click", () => {
+                    const tabId = btn.getAttribute("data-tab");
+                    switchTab(tabId);
                 });
+            });
 
+            window.addEventListener("DOMContentLoaded", () => {
                 loadContent();
                 switchTab("appInfo");
             });
