@@ -35,7 +35,7 @@
       "content": [
         {
           "type": "paragraph",
-          "text": "Follow the steps to get started with the app."
+          "text": "TODO"
         }
       ]
     },
@@ -43,12 +43,24 @@
       "title": "Privacy Disclaimer",
       "content": [
         {
+          "type": "heading",
+          "text": "1. Introduction"
+        },
+        {
           "type": "paragraph",
-          "text": "Welcome to VocabulAir! We value your privacy and are committed to being transparent about how your data is handled."
+          "text": "Welcome to VocabulAir! We value your privacy and are committed to being transparent about how your data is handled. This Privacy Policy explains our practices regarding data collection, storage, and protection in connection with our app."
         },
         {
           "type": "heading",
-          "text": "Data Collection and Use"
+          "text": "2.1 Important Note"
+        },
+        {
+          "type": "paragraph",
+          "text": "VocabulAir uses Apple’s CloudKit technology to store and manage your data. This means all your data is securely saved on your personal iCloud account, which we do not have access to or control over. For any questions about Apple’s data practices, please refer to Apple’s Privacy Policy."
+        },
+        {
+          "type": "heading",
+          "text": "2. Data Collection and Use"
         },
         {
           "type": "paragraph",
@@ -56,19 +68,51 @@
         },
         {
           "type": "heading",
-          "text": "Key Points:"
-        },
-        {
-          "type": "list",
-          "items": [
-            "Data Storage: Your data is saved exclusively on your personal iCloud account.",
-            "No Access: As developers, we do not have access to your data or any ability to view, modify, or delete it.",
-            "Security: Apple secures your data through its privacy and encryption practices for iCloud."
-          ]
+          "text": "2.1 Key Points"
         },
         {
           "type": "heading",
-          "text": "Information Sharing and Disclosure"
+          "text": "2.1.1 Data Storage"
+        },
+        {
+          "type": "paragraph",
+          "text": "Your data is saved exclusively on your personal iCloud account."
+        },
+        {
+          "type": "heading",
+          "text": "2.1.2 No Access"
+        },
+        {
+          "type": "paragraph",
+          "text": "As developers, we do not have access to your data or any ability to view, modify, or delete it."
+        },
+        {
+          "type": "heading",
+          "text": "2.1.3 Security"
+        },
+        {
+          "type": "paragraph",
+          "text": "Apple secures your data through its privacy and encryption practices for iCloud."
+        },
+        {
+          "type": "heading",
+          "text": "2.2 Use of AI Services for Translations"
+        },
+        {
+          "type": "paragraph",
+          "text": "VocabulAir uses the ChatGPT API, a service provided by OpenAI, to deliver translation features within the app. While translation requests may be processed via the ChatGPT API, no personal identifying data is sent. However, translation inputs may be transmitted to OpenAI's servers for processing."
+        },
+        {
+          "type": "heading",
+          "text": "2.3 Acceptance of OpenAI Terms of Service"
+        },
+        {
+          "type": "paragraph",
+          "text": "By subscribing to the Premium version of VocabulAir and using its translation features powered by the ChatGPT API, you also agree to OpenAI’s Terms of Service and Privacy Policy. We encourage you to review these at https://openai.com/policies."
+        },
+        {
+          "type": "heading",
+          "text": "3. Information Sharing and Disclosure"
         },
         {
           "type": "paragraph",
@@ -76,23 +120,23 @@
         },
         {
           "type": "heading",
-          "text": "Third-Party Links"
+          "text": "4. Third-Party Links"
         },
         {
           "type": "paragraph",
-          "text": "Our app may contain links to other websites or services, such as Apple\u2019s official sites for support and privacy. Please be aware that these third-party sites have their own privacy practices, which we recommend you review."
+          "text": "Our app may contain links to other websites or services, such as Apple’s official sites for support and privacy. Please be aware that these third-party sites have their own privacy practices, which we recommend you review."
         },
         {
           "type": "heading",
-          "text": "Children\u2019s Privacy"
+          "text": "5. Children’s Privacy"
         },
         {
           "type": "paragraph",
-          "text": "VocabulAir does not knowingly collect, use, or disclose data from children. Since we do not have access to any user data, all information remains securely stored in the user\u2019s iCloud account, as managed by Apple\u2019s privacy policies."
+          "text": "VocabulAir does not knowingly collect, use, or disclose data from children. Since we do not have access to any user data, all information remains securely stored in the user’s iCloud account, as managed by Apple’s privacy policies."
         },
         {
           "type": "heading",
-          "text": "Changes to This Privacy Policy"
+          "text": "6. Changes to This Privacy Policy"
         },
         {
           "type": "paragraph",
@@ -100,15 +144,193 @@
         },
         {
           "type": "heading",
-          "text": "Contact Us"
+          "text": "7. Contact Us"
         },
         {
           "type": "paragraph",
           "text": "If you have any questions or concerns about this Privacy Policy, feel free to contact us at dwi@lemmingsoft.com."
         },
         {
+          "type": "heading",
+          "text": "8. Developer"
+        },
+        {
           "type": "paragraph",
-          "text": "Developer:\nDaniel Wicklow\n\u00c4u\u00dfere Bayreuther Str. 59\n90409 N\u00fcrnberg"
+          "text": "Daniel Wicklow"
+        },
+        {
+          "type": "paragraph",
+          "text": "Äußere Bayreuther Str. 59"
+        },
+        {
+          "type": "paragraph",
+          "text": "90409 Nürnberg"
+        }
+      ]
+    }
+  },
+  "de": {
+    "tabs": {
+      "appInfo": "App-Informationen",
+      "howtos": "How-Tos",
+      "privacy": "Privatsphäre"
+    },
+    "appInfo": {
+      "title": "App Information",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Die VocabulAir-App ermöglicht es dir, Vokabelkarten mithilfe des Apple Pencils auf dem iPad oder mit der Tastatur auf dem iPhone zu erstellen. Die erstellten Karten beginnen auf Level 1, und du kannst dich selbst testen: Wenn du die Karte kennst, wische nach rechts, und sie wird auf Level 2 hochgestuft. Wenn du die Karte nicht kennst, wische nach links und versuche es später erneut."
+        },
+        {
+          "type": "paragraph",
+          "text": "Du kannst das Level auswählen, das du gerade lernst. Karten können favorisiert werden, sodass du einfachen Zugriff auf die Wörter hast, die du am meisten brauchst, z. B. um sie vor einer Prüfung zu wiederholen."
+        },
+        {
+          "type": "paragraph",
+          "text": "Die erstellten Karten werden zwischen deinem iPhone und iPad synchronisiert: So kannst du mit dem Apple Pencil zu Hause oder in der Schule neue Karten erstellen und sie später auf deinem iPhone lernen, z. B. während du wartest oder im Bus oder Zug fährst."
+        },
+        {
+          "type": "paragraph",
+          "text": "Karten können auch exportiert werden, um deine Arbeit zu sichern, sodass du regelmäßig ein Backup deiner Arbeit und den Status deiner Karten auf deinem Computer speichern kannst."
+        }
+      ]
+    },
+    "howtos": {
+      "title": "How-Tos",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "TODO"
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privatsphäre",
+      "content": [
+        {
+          "type": "heading",
+          "text": "1. Einführung"
+        },
+        {
+          "type": "paragraph",
+          "text": "Willkommen bei VocabulAir! Wir schätzen Ihre Privatsphäre und legen großen Wert darauf, transparent mit der Verarbeitung Ihrer Daten umzugehen. Diese Datenschutzrichtlinie erläutert unsere Vorgehensweise bei der Datenerfassung, -speicherung und -sicherheit im Zusammenhang mit unserer App."
+        },
+        {
+          "type": "heading",
+          "text": "2. Wichtiger Hinweis"
+        },
+        {
+          "type": "paragraph",
+          "text": "VocabulAir nutzt Apples CloudKit-Technologie zur Speicherung und Verwaltung Ihrer Daten. Das bedeutet, alle Ihre Daten werden sicher in Ihrem persönlichen iCloud-Konto gespeichert, auf das wir keinen Zugriff haben und das wir nicht kontrollieren. Bei Fragen zu Apples Datenpraxis verweisen wir auf Apples Datenschutzrichtlinie."
+        },
+        {
+          "type": "heading",
+          "text": "2. Datenerhebung und -nutzung"
+        },
+        {
+          "type": "paragraph",
+          "text": "Unsere App sammelt keine persönlichen Daten und hat keinen Zugriff auf Informationen auf Ihrem Gerät oder in Ihrem iCloud-Konto. Alle in VocabulAir erstellten Daten werden direkt in Ihrem iCloud-Konto via CloudKit gespeichert, wodurch Ihre Daten privat und sicher bei Apple bleiben."
+        },
+        {
+          "type": "heading",
+          "text": "2.1 Wichtige Punkte"
+        },
+        {
+          "type": "heading",
+          "text": "2.1.1 Datenspeicherung"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ihre Daten werden ausschließlich in Ihrem persönlichen iCloud-Konto gespeichert."
+        },
+        {
+          "type": "heading",
+          "text": "2.1.2 Kein Zugang"
+        },
+        {
+          "type": "paragraph",
+          "text": "Als Entwickler haben wir keine Möglichkeit, Ihre Daten einzusehen, zu ändern oder zu löschen."
+        },
+        {
+          "type": "heading",
+          "text": "2.1.3 Sicherheit"
+        },
+        {
+          "type": "paragraph",
+          "text": "Apple schützt Ihre Daten durch Datenschutz- und Verschlüsselungsmaßnahmen für iCloud."
+        },
+        {
+          "type": "heading",
+          "text": "2.2 Nutzung von KI‑Diensten für Übersetzungen"
+        },
+        {
+          "type": "paragraph",
+          "text": "VocabulAir nutzt die ChatGPT‑API von OpenAI, um Übersetzungsfunktionen innerhalb der App zu ermöglichen. Übersetzungsanfragen können über die ChatGPT‑API verarbeitet werden, jedoch werden dabei keine persönlichen Identifikationsdaten gesendet. Übersetzungseingaben können zur Bearbeitung an OpenAI‑Server übertragen werden."
+        },
+        {
+          "type": "heading",
+          "text": "2.3 Zustimmung zu den OpenAI‑Nutzungsbedingungen"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mit dem Abonnement der Premium-Version von VocabulAir und der Nutzung der durch ChatGPT‑API bereitgestellten Übersetzungsfunktionen akzeptieren Sie gleichzeitig die Nutzungsbedingungen und die Datenschutzrichtlinie von OpenAI. Wir empfehlen Ihnen, diese unter https://openai.com/policies zu prüfen."
+        },
+        {
+          "type": "heading",
+          "text": "3. Informationsweitergabe"
+        },
+        {
+          "type": "paragraph",
+          "text": "Da wir keinen Zugriff auf Ihre Daten haben, teilen, verkaufen oder geben wir keinerlei Nutzerdaten an Dritte weiter."
+        },
+        {
+          "type": "heading",
+          "text": "4. Drittanbieter-Links"
+        },
+        {
+          "type": "paragraph",
+          "text": "Unsere App kann Links zu anderen Websites oder Diensten enthalten, wie z.B. den offiziellen Support– und Datenschutzseiten von Apple. Bitte beachten Sie, dass diese Drittanbieter ihre eigenen Datenschutzpraktiken haben, die wir empfehlen, selbst zu prüfen."
+        },
+        {
+          "type": "heading",
+          "text": "5. Datenschutz von Kindern"
+        },
+        {
+          "type": "paragraph",
+          "text": "VocabulAir erhebt, verwendet oder gibt wissentlich keine Daten von Kindern weiter. Da wir keinen Zugriff auf Nutzerdaten haben, bleiben alle Informationen sicher in Ihrem iCloud-Konto gespeichert, wie von Apples Datenschutzrichtlinie vorgesehen."
+        },
+        {
+          "type": "heading",
+          "text": "6. Änderungen dieser Datenschutzrichtlinie"
+        },
+        {
+          "type": "paragraph",
+          "text": "Wir können diese Datenschutzrichtlinie gelegentlich aktualisieren, um technologische, rechtliche oder betriebliche Änderungen widerzuspiegeln. Alle Änderungen werden auf dieser Seite mit dem aktualisierten Datum oben veröffentlicht."
+        },
+        {
+          "type": "heading",
+          "text": "7. Kontakt"
+        },
+        {
+          "type": "paragraph",
+          "text": "Wenn Sie Fragen oder Bedenken bezüglich dieser Datenschutzrichtlinie haben, wenden Sie sich bitte an dwi@lemmingsoft.com."
+        },
+        {
+          "type": "heading",
+          "text": "8. Entwickler"
+        },
+        {
+          "type": "paragraph",
+          "text": "Daniel Wicklow"
+        },
+        {
+          "type": "paragraph",
+          "text": "Äußere Bayreuther Str. 59"
+        },
+        {
+          "type": "paragraph",
+          "text": "90409 Nürnberg"
         }
       ]
     }
