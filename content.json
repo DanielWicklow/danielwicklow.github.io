@@ -1,0 +1,40 @@
+{
+  "en": {
+    "tabs": {
+      "appInfo": "App Information",
+      "howtos": "How-Tos",
+      "privacy": "Privacy Disclaimer"
+    },
+    "appInfo": {
+      "title": "App Information",
+      "content": "The VocabulAir app lets you create vocabulary cards via the Apple Pencil on the iPad or using the keyboard on an iPhone. The cards you created then start out at level 1 and you can test yourself: If you know the card, swipe right and it will be upgraded to level 2. If you don’t know the card, swipe left and try again some other time. You can select the level you are currently learning. Cards can be favorited so you have easy access to those words you need most, e.g. for reviewing them before a test. The cards you created will be synchronized between your iPhone and iPad: That way, you can use the Apple Pencil to create new cards at home or at school and later learn them on your iPhone when waiting or on bus or train rides. Cards can also be exported for saving your work, so you can periodically back up your work and the states of your cards onto your computer."
+    },
+    "howtos": {
+      "title": "How-Tos",
+      "content": "Follow the steps to get started with the app."
+    },
+    "privacy": {
+      "title": "Privacy Disclaimer",
+      "content": "Welcome to VocabulAir! We value your privacy and are committed to being transparent about how your data is handled. This Privacy Policy explains our practices regarding data collection, storage, and protection in connection with our app. Important Note: VocabulAir uses Apple’s CloudKit technology to store and manage your data. This means all your data is securely saved on your personal iCloud account, which we do not have access to or control over. For any questions about Apple’s data practices, please refer to Apple’s Privacy Policy.\n\nData Collection and Use\n\nOur app does not collect or have access to any personal data or information stored on your device or in your iCloud. All data you create within VocabulAir is stored directly on your iCloud account via CloudKit, ensuring your information is kept private and secure by Apple.\n\nKey Points:\n- Data Storage: Your data is saved exclusively on your personal iCloud account.\n- No Access: As developers, we do not have access to your data or any ability to view, modify, or delete it.\n- Security: Apple secures your data through its privacy and encryption practices for iCloud.\n\nInformation Sharing and Disclosure\n\nSince we have no access to your data, we do not share, sell, or disclose any user data to third parties.\n\nThird-Party Links\n\nOur app may contain links to other websites or services, such as Apple’s official sites for support and privacy. Please be aware that these third-party sites have their own privacy practices, which we recommend you review.\n\nChildren’s Privacy\n\nVocabulAir does not knowingly collect, use, or disclose data from children. Since we do not have access to any user data, all information remains securely stored in the user’s iCloud account, as managed by Apple’s privacy policies.\n\nChanges to This Privacy Policy\n\nWe may update this Privacy Policy from time to time to reflect changes in technology, applicable law, or our business operations. Any changes will be posted on this page, with the updated date indicated at the top.\n\nContact Us\n\nIf you have any questions or concerns about this Privacy Policy, feel free to contact us at dwi@lemmingsoft.com.\n\nDeveloper:\nDaniel Wicklow\nÄußere Bayreuther Str. 59\n90409 Nürnberg"
+    }
+  },
+  "de": {
+    "tabs": {
+      "appInfo": "App-Informationen",
+      "howtos": "Anleitungen",
+      "privacy": "Datenschutzerklärung"
+    },
+    "appInfo": {
+      "title": "App-Informationen",
+      "content": "Die VocabulAir-App ermöglicht es dir, Vokabelkarten mithilfe des Apple Pencils auf dem iPad oder mit der Tastatur auf dem iPhone zu erstellen. Die erstellten Karten beginnen auf Level 1, und du kannst dich selbst testen: Wenn du die Karte kennst, wische nach rechts, und sie wird auf Level 2 hochgestuft. Wenn du die Karte nicht kennst, wische nach links und versuche es später erneut. Du kannst das Level auswählen, das du gerade lernst. Karten können favorisiert werden, sodass du einfachen Zugriff auf die Wörter hast, die du am meisten brauchst, z. B. um sie vor einer Prüfung zu wiederholen. Die erstellten Karten werden zwischen deinem iPhone und iPad synchronisiert: So kannst du mit dem Apple Pencil zu Hause oder in der Schule neue Karten erstellen und sie später auf deinem iPhone lernen, z. B. während du wartest oder im Bus oder Zug fährst. Karten können auch exportiert werden, um deine Arbeit zu sichern, sodass du regelmäßig ein Backup deiner Arbeit und den Status deiner Karten auf deinem Computer speichern kannst."
+    },
+    "howtos": {
+      "title": "Anleitungen",
+      "content": "Folgen Sie den Schritten, um mit der App zu beginnen."
+    },
+    "privacy": {
+      "title": "Datenschutzerklärung",
+      "content": "Willkommen bei VocabulAir! Wir legen großen Wert auf Ihre Privatsphäre und sind bestrebt, transparent zu sein, wie Ihre Daten behandelt werden. Diese Datenschutzrichtlinie erläutert unsere Praktiken in Bezug auf Datenerhebung, -speicherung und -schutz im Zusammenhang mit unserer App. Wichtiger Hinweis: VocabulAir verwendet die CloudKit-Technologie von Apple, um Ihre Daten zu speichern und zu verwalten. Das bedeutet, dass alle Ihre Daten sicher in Ihrem persönlichen iCloud-Konto gespeichert werden, auf das wir keinen Zugriff haben und das wir nicht kontrollieren können. Für Fragen zu den Datenpraktiken von Apple verweisen wir Sie auf die Datenschutzrichtlinie von Apple.\n\nDatenerhebung und -nutzung\n\nUnsere App sammelt keine persönlichen Daten und hat keinen Zugriff auf Informationen, die auf Ihrem Gerät oder in Ihrer iCloud gespeichert sind. Alle Daten, die Sie in VocabulAir erstellen, werden direkt in Ihrem iCloud-Konto über CloudKit gespeichert, wodurch sichergestellt wird, dass Ihre Informationen von Apple privat und sicher aufbewahrt werden.\n\nWichtige Punkte:\n- Datenaufbewahrung: Ihre Daten werden ausschließlich in Ihrem persönlichen iCloud-Konto gespeichert.\n- Kein Zugriff: Als Entwickler haben wir keinen Zugriff auf Ihre Daten und können diese weder einsehen, ändern noch löschen.\n- Sicherheit: Apple schützt Ihre Daten durch seine Datenschutz- und Verschlüsselungspraktiken für iCloud.\n\nInformationsweitergabe und -offenlegung\n\nDa wir keinen Zugriff auf Ihre Daten haben, teilen, verkaufen oder geben wir keinerlei Nutzerdaten an Dritte weiter.\n\nLinks zu Dritten\n\nUnsere App kann Links zu anderen Websites oder Diensten enthalten, wie z.B. die offiziellen Websites von Apple für Support und Datenschutz. Bitte beachten Sie, dass diese Websites von Drittanbietern ihre eigenen Datenschutzpraktiken haben, die wir Ihnen empfehlen zu überprüfen.\n\nKinderschutz\n\nVocabulAir sammelt, nutzt oder gibt keine Daten von Kindern wissentlich weiter. Da wir keinen Zugriff auf Benutzerdaten haben, bleiben alle Informationen sicher im iCloud-Konto des Benutzers gespeichert, wie von Apples Datenschutzrichtlinien geregelt.\n\nÄnderungen dieser Datenschutzrichtlinie\n\nWir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren, um Änderungen in der Technologie, den geltenden Gesetzen oder unseren Geschäftsabläufen widerzuspiegeln. Alle Änderungen werden auf dieser Seite veröffentlicht, wobei das Aktualisierungsdatum oben angegeben wird.\n\nKontakt\n\nWenn Sie Fragen oder Bedenken zu dieser Datenschutzrichtlinie haben, können Sie uns gerne unter dwi@lemmingsoft.com kontaktieren.\n\nEntwickler:\nDaniel Wicklow\nÄußere Bayreuther Str. 59\n90409 Nürnberg"
+    }
+  }
+}
