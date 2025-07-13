@@ -4,7 +4,6 @@ body {
     background-color: #f4f4f4;
     color: #333;
 }
-
 header {
     background-color: #222;
     color: white;
@@ -13,7 +12,6 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-
 .language-toggle button {
     background: none;
     border: none;
@@ -22,16 +20,13 @@ header {
     margin-left: 0.5em;
     color: white;
 }
-
 .language-toggle button:hover {
     transform: scale(1.1);
 }
-
 .container {
     display: flex;
     height: calc(100vh - 70px);
 }
-
 .sidebar {
     width: 200px;
     background-color: #f0f0f0;
@@ -40,7 +35,6 @@ header {
     display: flex;
     flex-direction: column;
 }
-
 .tab-btn {
     background: none;
     border: 2px solid transparent;
@@ -50,32 +44,26 @@ header {
     cursor: pointer;
     font-size: 1em;
 }
-
 .tab-btn.active {
     border-left: 4px solid #007bff;
     background-color: #e0e0e0;
     font-weight: bold;
 }
-
 .tab-btn:hover {
     background-color: #ddd;
 }
-
 .content {
     flex: 1;
     padding: 2em;
     overflow-y: auto;
 }
-
 .tab-content {
     display: none;
 }
-
 .tab-content.active {
     display: block;
     background: white;
     padding: 1.5em;
-    border-radius: 5px;
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
-    white-space: pre-line;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
